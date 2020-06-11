@@ -1,4 +1,8 @@
-import text from './text';
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-console.log(`Hello ${text}`) //concatenate. In VSCode terminal type node src/index.js to see results
-//Install packages in dev environment: webpack and webpack-CLI to bundle JS code, code splitting, etc.
+function App() {
+    return <h1>Hello World!</h1>
+}
+
+ReactDOM.render(<App />, document.getElementById('app'))
